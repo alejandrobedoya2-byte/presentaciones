@@ -1,0 +1,18 @@
+{
+  "titulo": "El taller: cómo trabajo con IA",
+  "fecha": "octubre de 2026",
+  "estado": "Borrador · la apertura en dos versiones",
+  "descripcion": "Las láminas de apertura, programadas con movimiento. Dos formas de usar la carpeta como hilo de la historia.",
+  "pruebas": [
+    {
+      "destino": "prueba-1a",
+      "nombre": "Versión A · la carpeta en el camino",
+      "descripcion": "Una línea de trabajo cruza todas las láminas; la carpeta aparece sobre ella."
+    },
+    {
+      "destino": "prueba-1b",
+      "nombre": "Versión B · dentro de la carpeta",
+      "descripcion": "La carpeta se abre, llena la pantalla y lo que sigue pasa adentro."
+    }
+  ]
+}

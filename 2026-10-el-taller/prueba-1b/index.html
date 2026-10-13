@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El taller</title>
+
+<link rel="stylesheet" href="variables.css">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main id="marco">
+<div id="escenario">
+  <div class="fondo" aria-hidden="true"></div>
+
+  
+  <div class="pieza linea" data-pieza="linea" aria-hidden="true"><div class="cuerpo">
+    <svg width="1600" height="24" viewBox="0 0 1600 24"><path d="M0 12 H1600"/></svg>
+  </div></div>
+  <div class="pieza punto-inicio" data-pieza="linea-inicio" aria-hidden="true"><div class="cuerpo"></div></div>
+  <div class="pieza corte" data-pieza="linea-corte" aria-hidden="true"><div class="cuerpo">
+    <svg width="36" height="36" viewBox="0 0 36 36"><path d="M9 27 L17 9 M19 27 L27 9"/></svg>
+  </div></div>
+
+  
+  <div class="pieza agenda primera" data-pieza="agenda-1"><div class="cuerpo"><i class="marca"></i><p class="sub">Con el que trabajo con IA, al que llamo «el taller»</p></div></div>
+  <div class="pieza agenda" data-pieza="agenda-2"><div class="cuerpo"><i class="marca"></i><p class="sub">En un proyecto real</p></div></div>
+  <div class="pieza agenda" data-pieza="agenda-3"><div class="cuerpo"><i class="marca"></i><p class="sub">Un pedido concreto</p></div></div>
+  
+  <div class="pieza parte" data-pieza="parte-1"><div class="cuerpo">El sistema</div></div>
+  <div class="pieza parte" data-pieza="parte-2"><div class="cuerpo">El sistema aplicado</div></div>
+  <div class="pieza parte" data-pieza="parte-3"><div class="cuerpo">El cierre</div></div>
+
+  
+  <div class="pieza chat" data-pieza="chat" aria-label="Una ventana de chat vacía"><div class="cuerpo">
+    <div class="barra"><i></i><i></i><i></i></div>
+    <div class="entrada"><span class="cursor"></span><span class="enviar"></span></div>
+  </div></div>
+
+  <div class="pieza burbuja" data-pieza="burbuja-1"><div class="cuerpo"><span class="ranura"></span><span>Te cuento mi proyecto…</span></div></div>
+  <div class="pieza burbuja" data-pieza="burbuja-2"><div class="cuerpo"><span class="ranura"></span><span>El objetivo es…</span></div></div>
+  <div class="pieza burbuja" data-pieza="burbuja-3"><div class="cuerpo"><span class="ranura"></span><span>Lo que decidí, y por qué…</span></div></div>
+  <div class="pieza burbuja" data-pieza="burbuja-4"><div class="cuerpo"><span class="ranura"><img src="logos/chatgpt.svg" alt="ChatGPT"></span><span>Otra vez, te cuento todo…</span></div></div>
+  <div class="pieza burbuja" data-pieza="burbuja-5"><div class="cuerpo"><span class="ranura"><img src="logos/claude.svg" alt="Claude"></span><span>Te cuento mi proyecto…</span></div></div>
+
+  <div class="pieza frase-1" data-pieza="frase-1"><div class="cuerpo">
+    Los chats están hechos para conversar, no para <span class="marcador">llevar un proyecto</span>.
+  </div></div>
+
+  
+  <div class="pieza tarjeta" data-pieza="tarjeta-chatgpt"><div class="cuerpo">
+    <div class="cabeza"><span class="circulo"></span><h3>ChatGPT</h3></div>
+    <div class="memoria">Memoria dentro del producto</div>
+    <p>Guarda un resumen. Su propia ayuda dice que lo que te muestra no es todo lo que usa.</p>
+  </div></div>
+  <div class="pieza tarjeta" data-pieza="tarjeta-claude"><div class="cuerpo">
+    <div class="cabeza"><span class="circulo"></span><h3>Claude</h3></div>
+    <div class="memoria">Memoria dentro del producto</div>
+    <p>Guarda temas que puedes ver y corregir uno por uno.</p>
+  </div></div>
+  <div class="pieza tarjeta" data-pieza="tarjeta-copilot"><div class="cuerpo">
+    <div class="cabeza"><span class="circulo"></span><h3>Copilot</h3></div>
+    <div class="memoria">Memoria dentro del producto</div>
+    <p>Guarda memorias y detalles que deduce de tu historial.</p>
+  </div></div>
+
+  <div class="pieza frase-2" data-pieza="frase-2"><div class="cuerpo">
+    Lo que recuerda <span class="marcador">sobre ti</span> no es el registro del proyecto.
+  </div></div>
+  <div class="pieza fuente-2" data-pieza="fuente-2"><div class="cuerpo">Datos oficiales de cada empresa, al 13 de octubre de 2026.</div></div>
+
+  
+  <div class="pieza tu" data-pieza="tu"><div class="cuerpo">
+    <span class="circulo"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="22" r="11"/><path d="M11 55c2-12 10-19 21-19s19 7 21 19z"/></svg></span>
+    <b>Tú</b><span class="sub">Decides</span>
+  </div></div>
+
+  <div class="pieza agente" data-pieza="agente"><div class="cuerpo">
+    <div class="cabeza"><span class="ranura-logo"></span><h3>Claude Code</h3><span class="etiqueta">el agente</span></div>
+    <div class="caja"><b>El modelo (LLM)</b><span>Lee y escribe texto</span></div>
+    <div class="caja"><b>Herramientas</b><span>Lee, escribe, busca, corre</span></div>
+  </div></div>
+
+  <div class="pieza conectores" data-pieza="conectores-3" aria-hidden="true"><div class="cuerpo">
+    <svg width="1600" height="900" viewBox="0 0 1600 900">
+      <circle class="punto-salida" cx="274" cy="370" r="7"/>
+      <path class="punta" d="M386 360 L397 370 L386 380"/>
+      <path class="punta" d="M934 360 L923 370 L934 380"/>
+      <path class="punta" d="M1066 360 L1077 370 L1066 380"/>
+    </svg>
+  </div></div>
+
+  <div class="pieza subagente" data-pieza="subagente"><div class="cuerpo">
+    <svg class="flechas" width="620" height="56" viewBox="0 0 620 56" aria-hidden="true">
+      <path class="trazo" d="M210 4 V46"/><path class="punta" d="M200 36 L210 48 L220 36"/>
+      <path class="trazo" d="M292 52 V10"/><path class="punta" d="M282 20 L292 8 L302 20"/>
+    </svg>
+    <div class="tarjeta-sub">
+      <b>Subagente</b>
+      <span>Su propio modelo · Sin la conversación · Devuelve un informe</span>
+    </div>
+  </div></div>
+
+  
+  <div class="pieza carpeta" data-pieza="carpeta"><div class="cuerpo">
+    <div class="carpeta-pestana"><span>La carpeta del taller</span></div>
+    <div class="carpeta-fondo"></div>
+    <div class="carpeta-interior"></div>
+    <div class="carpeta-hoja h1"></div>
+    <div class="carpeta-hoja h2"></div>
+    <div class="carpeta-frente">
+      <strong>La carpeta del taller</strong>
+      <span>La memoria que el modelo no tiene</span>
+    </div>
+  </div></div>
+
+  <div class="pieza frase-3" data-pieza="frase-3"><div class="cuerpo">
+    El modelo piensa, el agente actúa y el
+    <span class="palabra-icono" id="palabra-taller"><span class="pi-pastilla" aria-hidden="true"></span><span class="pi-palabra">taller</span></span>
+    recuerda.
+  </div></div>
+
+  
+  <div class="pieza hoja-meta" data-pieza="hoja-meta"><div class="cuerpo"></div></div>
+  <div class="pieza meta-titulo" data-pieza="meta-titulo"><div class="cuerpo">Lo que quiero lograr</div></div>
+  <div class="pieza meta" data-pieza="meta-1"><div class="cuerpo"><i></i><span>Sentar las bases para comenzar a usar la IA de forma ordenada</span></div></div>
+  <div class="pieza meta" data-pieza="meta-2"><div class="cuerpo"><i></i><span>Que todos entendamos en conjunto</span></div></div>
+  <div class="pieza meta" data-pieza="meta-3"><div class="cuerpo"><i></i><span>Fusionar las herramientas que tenemos</span></div></div>
+  <div class="pieza meta" data-pieza="meta-4"><div class="cuerpo"><i></i><span>Optimizar los resultados con una medición clara</span></div></div>
+
+  
+  <div class="pieza logo" data-pieza="logo-chatgpt"><div class="cuerpo"><img src="logos/chatgpt.svg" alt="ChatGPT"></div></div>
+  <div class="pieza logo" data-pieza="logo-claude"><div class="cuerpo"><img src="logos/claude.svg" alt="Claude"></div></div>
+  <div class="pieza logo" data-pieza="logo-copilot"><div class="cuerpo"><img src="logos/copilot.svg" alt="Copilot"></div></div>
+
+  <div id="numero" aria-live="polite">0</div>
+</div>
+</main>
+<script src="presentacion.js"></script>
+</body>
+</html>
